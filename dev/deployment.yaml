@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myapp
-  replicas: 0
+  replicas: 1
   template:
     metadata:
       labels:
@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: paulesc93/flask_app:0.0.3
         ports:
-        - containerPort: 5000
+        - containerPort: 5001

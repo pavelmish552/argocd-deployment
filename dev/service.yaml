@@ -6,7 +6,7 @@ spec:
   selector:
     app: myapp
   ports:
-  - targetPort: 5000
+  - targetPort: 5001
     port: 80
     protocol: TCP
     nodePort: 31111
